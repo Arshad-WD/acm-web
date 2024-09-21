@@ -1,9 +1,9 @@
-"use client"; // Ensure this is a client component
+"use client";
 
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '/public/images/logo.png'; // Replace with your image path
-import AcmBg from '/public/images/acmbg.jpeg'; // Update with your actual image path
+import logo from '/public/images/logo.png'; 
+import AcmBg from '/public/images/acmbg.jpeg';
 
 export default function Home() {
   return (
